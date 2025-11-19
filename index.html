@@ -9,12 +9,15 @@
 <body>
     <div class="container">
         <header>
-            <img id="headerkep" src="/Kepek/pizzakep.jpg" alt="">
+            <img id="headerkep" src="/Kepek/pizzakep.jpg">
             <h1>Pizzéria</h1>
-            <p>Kezdőlap / </p>
-            <p>Menü / </p>
-            <p>Rólunk / </p>
-            <p>Kapcsolat</p>
+            <div class="menu-container">
+                <button class="menu-toggle" onclick="toggleMenu()"></button>
+                <p class="kezdolap" class="button">Kezdőlap / </p>
+                <p class="menu" class="button">Menü / </p>
+                <p class="rolunk" class="button">Rólunk / </p>
+                <p class="kapcsolat" class="button">Kapcsolat</p>
+            </div>
         </header>
         <div class="content-1"></div>
         <div class="content-2"></div>
