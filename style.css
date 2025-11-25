@@ -1,4 +1,7 @@
 body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -9,14 +12,14 @@ body{
 
 header{
     position: relative;
-    margin-left: -5px;
+    width: 100%;
 }
 
 #headerkep{
     height: 45vh;
-    width: 100.4vw;
+    width: 106.7%;
     object-fit: cover;
-    margin-left: -0.65%;
+    display: block;
 }
 
 header h1{
@@ -82,31 +85,43 @@ header h1{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     display: grid;
-    gap: 10px;
+    width: 106.7%;
+    gap: 20px;
+    background-color: rgb(54, 54, 54);
+}
+
+#pizzerianev{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    text-align: right;
+    text-transform: uppercase;
     position: absolute;
-    background-color: rgb(85, 85, 85);
+    right: 60%;
+    top: 45%;
 }
 
-#Pizzerianev{
+#tortenet{
     grid-column: 1;
-    grid-row: 1;
-    position: relative;
+    grid-row: 2 / 1;
+    font-size: 1.2em;
+    position: absolute;
+    right: 60%;
+    top: 50%;
 }
 
-#Tortenet{
-    grid-column: 1;
-    grid-row: 1;
+#szoveg{
+    grid-column: 2;
+    grid-row: 1 / 1;
     position: relative;
+    right: 15%;
+    top: 7%;
 }
 
-#Szoveg{
-    grid-column: 1;
-    grid-row: 1;
+#asztal{
+    grid-column: 2;
+    grid-row: 2;
+    text-transform: uppercase;
     position: relative;
-}
-
-#Asztal{
-    grid-column: 1;
-    grid-row: 1;
-    position: relative;
+    right: 15%;
+    bottom: 30%;
 }
