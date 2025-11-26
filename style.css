@@ -93,35 +93,34 @@ header h1{
 #pizzerianev{
     grid-column: 1 / 1;
     grid-row: 1 / 1;
-    text-align: right;
     text-transform: uppercase;
-    position: absolute;
-    right: 60%;
-    top: 45%;
+    justify-self: end;
 }
 
 #tortenet{
-    grid-column: 1;
-    grid-row: 2 / 1;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     font-size: 1.2em;
-    position: absolute;
-    right: 60%;
-    top: 50%;
+    justify-self: end;
 }
 
 #szoveg{
-    grid-column: 2;
-    grid-row: 1 / 1;
-    position: relative;
-    right: 15%;
-    top: 7%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: start;
 }
 
 #asztal{
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     text-transform: uppercase;
-    position: relative;
-    right: 15%;
-    bottom: 30%;
+    justify-self: start;
+}
+.content2{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    width: 106.7%;
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
 }
