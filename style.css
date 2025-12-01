@@ -38,6 +38,7 @@ header h1{
     right: 14.5%;
     color: white;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .menu{
@@ -47,6 +48,7 @@ header h1{
     right: 9.5%;
     color: white;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .rolunk{
@@ -56,6 +58,7 @@ header h1{
     right: 4%;
     color: white;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .kapcsolat{
@@ -65,6 +68,7 @@ header h1{
     right: -2.5%;
     color: white;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .button {
@@ -87,6 +91,7 @@ header h1{
     display: grid;
     width: 106.7%;
     gap: 20px;
+    height: 100%;
     background-color: rgb(54, 54, 54);
 }
 
@@ -94,33 +99,54 @@ header h1{
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     text-transform: uppercase;
-    justify-self: end;
+    text-align: right;
 }
 
 #tortenet{
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
     font-size: 1.2em;
-    justify-self: end;
+    text-align: right;
+    align-self: end;
 }
 
 #szoveg{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    justify-self: start;
+
 }
 
 #asztal{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
     text-transform: uppercase;
-    justify-self: start;
+    align-self: end;
 }
 .content2{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 106.7%;
-    gap: 20px;
+    gap: 0px;
     background-color: rgb(0, 0, 0);
+}
+#gombok{
+    gap: 50px;
+    color: white;
+}
+#pizza{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+#menu3{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+#italok{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
 }
