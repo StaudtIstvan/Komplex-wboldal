@@ -7,23 +7,27 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+   max-width: 100%;
 }
 
 header{
-    position: relative;
+    background-image: url(Kepek/pizzakep.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    height: 45vh;
     width: 100%;
+    background-position: 0;
 }
 
 #headerkep{
     height: 45vh;
-    width: 106.7%;
+    width: 100%;
     object-fit: cover;
     display: block;
 }
 
 header h1{
-    position: absolute;
     top: 2%;
     left: 2%;
     text-transform: uppercase;
@@ -35,7 +39,7 @@ header h1{
     position: absolute;
     font-size: 110%;
     top: 5.5%;
-    right: 14.5%;
+    right: 20%;
     color: white;
     text-decoration: none;
     opacity: 0.8;
@@ -45,7 +49,7 @@ header h1{
     position: absolute;
     font-size: 110%;
     top: 5.5%;
-    right: 9.5%;
+    right: 15%;
     color: white;
     text-decoration: none;
     opacity: 0.8;
@@ -55,7 +59,7 @@ header h1{
     position: absolute;
     font-size: 110%;
     top: 5.5%;
-    right: 4%;
+    right: 9%;
     color: white;
     text-decoration: none;
     opacity: 0.8;
@@ -65,7 +69,7 @@ header h1{
     position: absolute;
     font-size: 110%;
     top: 5.5%;
-    right: -2.5%;
+    right: 2.5%;
     color: white;
     text-decoration: none;
     opacity: 0.8;
@@ -83,11 +87,10 @@ header h1{
     text-align: center;
     text-rendering: inherit;
     text-decoration: none;
-    position: absolute;
 }
 .content1{
     display: flex;
-    width: 106.7%;
+    width: 100%;
     gap: 20px;
     height: 100%;
     background-color: rgb(54, 54, 54);
@@ -122,7 +125,7 @@ header h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 106.7%;
+    width: 100%;
     background-color: rgb(0, 0, 0);
 }
 .gombok{
