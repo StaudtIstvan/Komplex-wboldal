@@ -107,19 +107,24 @@ header h1{
 
 #pizzerianev{
     text-transform: uppercase;
-    text-align: right;
+    position: relative;
+    left: 50%;
 }
 
 #tortenet{
-    text-align: right;
+    position: relative;
+    left: 50%;
+
 }
 
 #szoveg{
     width: 75%;
+    text-align: left;
 }
 
 #asztal{
     text-transform: uppercase;
+    text-align: left;
 }
 .content2{
     display: flex;
@@ -132,6 +137,7 @@ header h1{
 .gombok{
     gap: 50px;
     display: flex;
+    margin: 30px;
 }
 
 #szoveg2{
@@ -166,43 +172,65 @@ header h1{
 
 .kepek{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.kepek div{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#speci{
+    text-align: center;
+}
+
+#osszhang{
+    text-align: center;
+    position: relative;
+    bottom: 50%;
 }
 
 .pizza1{
     grid-area: pizza1;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    width: 30vw;
-    height: 30vh;
+    background-image: url(Kepek/pizzakep.jpg);
     gap: 20px;
 }
 
 .pizza2{
     grid-area: pizza2;
-    width: 30vw;
-    height: 30vh;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    background-image: url(Kepek/pizzakep2.jpg);
     gap: 20px;
 }
 
 .pizza3{
     grid-area: pizza3;
-    width: 30vw;
-    height: 30vh;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    background-image: url(Kepek/pizzakep3.jpg);
     gap: 20px;
 }
 
 .pizza4{
     grid-area: pizza4;
-    width: 30vw;
-    height: 30vh;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-image: url(Kepek/pizzakep4.jpg);
     gap: 20px;
 }
 
 .pizza5{
     grid-area: pizza5;
-    width: 30vw;
-    height: 30vh;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-image: url(Kepek/pizzakep5.jpg);
     gap: 20px;
 }
