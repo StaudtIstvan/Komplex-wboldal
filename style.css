@@ -249,4 +249,40 @@ header h1{
     grid-row: 3 / 4;
     background-image: url(Kepek/pizzakep5.jpg);
 }
+footer{
+    background-color: black;
+    margin-left: 0px;
+    padding: 5%;
+    display: flex;
+    justify-content: right;
+}
 
+.footer_container {
+    display: flex;
+    background-color: black;
+    gap: 40px;
+}
+footer .szeretet_p {
+    font-size: 28px;
+    text-align: right;
+}
+footer .foglalas_p {
+    text-decoration: white underline;
+    color: white;
+    font-size: 24px;
+}
+
+footer .footer_szoveg {
+    opacity: 0.6;
+    font-size: 24px;
+}
+
+.vonal {
+    opacity: 0.6;
+}
+
+.footer_2 {
+    justify-self: right;
+    text-align: right;
+    background-color: black;
+}
