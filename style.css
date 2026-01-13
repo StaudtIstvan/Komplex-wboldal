@@ -107,13 +107,13 @@ header h1{
 
 #pizzerianev{
     text-transform: uppercase;
-    position: relative;
-    left: 50%;
+    display: flex;
+    justify-content: right;
 }
 
 #tortenet{
-    position: relative;
-    left: 50%;
+    display: flex;
+    justify-content: right;
 
 }
 
@@ -202,7 +202,10 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: end;
-
+    padding-bottom: 2%;
+    font-family: serif;
+    font-style: italic;
+    font-size: 110%;
 }
 
 #speci{
@@ -254,18 +257,20 @@ footer{
     margin-left: 0px;
     padding: 5%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .footer_container {
     display: flex;
     background-color: black;
     gap: 40px;
+    padding-top: 60px;
 }
-footer .szeretet_p {
-    font-size: 28px;
-    text-align: right;
+
+.foglalas{
+    justify-content: right;
 }
+
 footer .foglalas_p {
     text-decoration: white underline;
     color: white;
@@ -281,8 +286,14 @@ footer .footer_szoveg {
     opacity: 0.6;
 }
 
-.footer_2 {
-    justify-self: right;
-    text-align: right;
+.footer2 {
+    display: flex;
+    text-align: center;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.footer_2_piadina{
+    display: flex;
+    justify-content: end;
 }
