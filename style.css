@@ -11,14 +11,17 @@ html, body{
    max-width: 100%;
 }
 
+#hamburgericon{
+    display: none;
+}
+
 header{
     background-image: url(Kepek/pizzakep.jpg);
-    background-size: 100%;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     height: 45vh;
     width: 100%;
-    background-position: 0;
 }
 
 #headerkep{
@@ -29,9 +32,8 @@ header{
 }
 
 header h1{
-    display: flex;
-    justify-content: center;
-    width: 10%;
+    margin-left: 2%;
+    width: 100%;
     text-transform: uppercase;
     font-weight: lighter;
     color: white;
@@ -39,11 +41,10 @@ header h1{
 
 .menu-container{
     display: flex;
-    justify-content: right;
     gap: 25px;
     align-items: center;
     height: 9vh;
-    width: 88%;
+    margin-right: 5%;
 }
 
 .kezdolap{
@@ -79,45 +80,45 @@ header h1{
     width: 100%;
     height: 100%;
     background-color: rgb(54, 54, 54);
-    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    gap: 30px;
+    justify-content: center;
+    align-self: center;
 
 .oszlop1{
-    width: 50%;
+    width: 20%;
     text-align: right;
 }
 
 .oszlop2{
-    width: 50%;
+    width: 20%;
     text-align: left;
 }
 
 #pizzerianev{
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    width: 100%;   
+
+    width: 100%;  
 }
 
 }
 
 #tortenet{
-    display: flex;
-    justify-content: center;
     width: 100%;
 
 }
 
 #szoveg{
-    display: flex;
-    justify-content: left;
-    width: 60%;
+    font-size: 18px;
+    width: 100%;
 
 }
 
 #asztal{
-    display: flex;
-    justify-content: left;
     text-transform: uppercase;
+    font-size: 26px;
+    width: 100%;
 }
 .content2{
     display: flex;

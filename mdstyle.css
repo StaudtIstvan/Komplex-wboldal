@@ -1,0 +1,20 @@
+@media(max-width: 768px){
+
+
+
+    .menu-container a, .menu-container div{
+        display: none;
+    }
+
+    #hamburgericon{
+        display: block;
+    }
+
+    #szoveg{
+        width: 200%;
+    }
+
+    #asztal{
+       width: 50%;
+    }
+}
