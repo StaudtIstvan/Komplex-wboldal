@@ -1,20 +1,24 @@
 @media(max-width: 568px){
+    html, body{
+        overflow-x: hidden;
+    }
     .content1{
         flex-direction: column;
-        display: flex;
     }
 
     .oszlop1{
         text-align: right;
         width: 90vw;
+        padding-left: 5%;
     }
     .oszlop2{
         text-align: left;
         width: 90vw;
+        margin-left: 1%;
     }
 
     #szoveg{
-        width: 50%;
+        width: 100%;
     }
 
     #asztal{
@@ -29,4 +33,46 @@
         gap: 20px;
     }
 
+    .content3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+    .footer .szeretetcim{
+        margin-left: 15%;
+        width: 100%;    
+    }
+    .nyitvatartas{
+        width: 122%;
+        margin-left: -5%;
+    }
+    .foglalas{
+        margin-left: -5%;
+        width: 73%;
+    }
+    .footerszovegg{
+        width: 150%;
+    }
+    .footer2 hr{
+        width: 95%;
+    }
+    .kepek {
+    display: flex;
+    flex-direction: column; 
+    width: 90vw;
+    height: 200vh; 
+    }
+
+    .pizza1, .pizza2, .pizza3, .pizza4, .pizza5 {
+        width: 100%;
+        height: 30vh;
+    }
+    .gombok a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
 }
