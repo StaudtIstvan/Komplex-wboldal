@@ -1,0 +1,32 @@
+@media(max-width: 568px){
+    .content1{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .oszlop1{
+        text-align: right;
+        width: 90vw;
+    }
+    .oszlop2{
+        text-align: left;
+        width: 90vw;
+    }
+
+    #szoveg{
+        width: 50%;
+    }
+
+    #asztal{
+        width: 100%;
+    }
+
+    .gombok{
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        padding-bottom: 10%;
+        gap: 20px;
+    }
+
+}
